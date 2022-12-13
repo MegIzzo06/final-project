@@ -1,0 +1,76 @@
+body {
+    /*Sets background image*/
+    background-image: url("purplestars.jpg");
+    /*Aligns text to center*/
+    text-align: center;
+    /*Changes font colo*/
+    color: ghostwhite;
+    /*Changes font size*/
+    font-size: large;
+    /*Sets the minimum body height*/
+    min-height: 97vh;
+    /*Sets display to flex to auto align things*/
+    display: flex;
+    /*Fixes the alignment of things to a column style*/
+    flex-direction: column;
+}
+h1, h2, p, li {
+    /*Adds an "outline" to the text*/
+    text-shadow: 2px 2px 0 black,
+                 -2px -2px 0 black,
+                 2px -2px 0 black,
+                 -2px 2px 0 black;
+}
+
+h1, h2 {
+    /*Adjusts top margin*/
+    margin-top: 4px;
+}
+p {
+    /*Adjust font size*/
+    font-size: 20px;
+}
+a {
+    /*Changes the font color for the links*/
+    color: cyan;
+}
+ol {
+    /*Aligns the text to the left*/
+    text-align: left;
+    /*Changes the font size*/
+    font-size: 20px;
+}
+li {
+    /*Adjusts the font size*/
+    font-size: 20px;
+}
+nav {
+    /*Puts the list in a block style instead of flex*/
+    display: block;
+    /*Changes the padding of the navigation box*/
+    padding: 4px;
+    /*Changes the background color of the nav box*/
+    background-color: black;
+}
+footer {
+    /*Changes the font size*/
+    font-size: 15px;
+    /*Adjusts the top margin to make it set to the bottom*/
+    margin-top: auto;
+    /*Puts the list in a block style instead of flex*/
+    display: block;
+    /*Adjusts the padding of the footer box*/
+    padding: 2px;
+    /*Change the background color of the box*/
+    background-color: black;
+}
+img {
+    /*Used to center the image*/
+    margin-left: auto;
+    /*Used to center the image*/
+    margin-right: auto;
+    /*Adjust height of image*/
+    height: 200px;
+    /*Adjust width of image*/
+    width: 175px;
+}

@@ -1,0 +1,119 @@
+<!--Declare what document type it is.-->
+<!DOCTYPE html>
+<!--Set language to English and start HTML tag.-->
+<html lang="en">
+<!--Start head tag.-->
+<head>
+<!--Create title of document.-->
+    <title>Stingray Facts</title>
+<!--End head tag.-->
+</head>
+<!--Start style tag.-->
+<style>
+    /*Style body*/
+    body {
+    /*Add background image*/
+        background-image: url(ManyStingrays.jpg);
+    /*Align items/text*/
+        text-align: center;
+    /*Change font size/appearance*/
+        font-size: 30px;
+        font-family: verdana;
+        font-weight: bold;
+    }
+    /*Style buttons*/
+    button {
+    /*Keep buttons in line*/
+        display: inline-block;
+        vertical-align: middle;
+    /*Adjust height*/
+        line-height: 25px;
+    /*Change font type/size/color and make it bold*/
+        font-family: verdana;
+        font-size: medium;
+        font-weight: bold;
+        color: black;
+    /*Change button appearance*/
+        background-color: indianred;
+        border-color: crimson;
+    /*Adjust margin top*/
+        margin-top: 35px;
+    }
+    /*Adjust Stingray gif*/
+    img.animated-gif {
+    /*Adjust margin top*/
+        margin-top: 5px;
+    /*Adjust width size*/
+        width: 20%;
+    /*Adjust height size*/
+        height: 10%;
+    }
+/*End style tag.*/
+</style>
+<!--Start script tag.-->
+<script>
+//Creates unique alert for Fact 1 button.
+function funFact1() {
+    alert("Stingrays are closely related to sharks.");
+}
+//Creates unique alert for Fact 2 button.
+function funFact2() {
+    alert("Stingrays have no bones. It is all cartliage.");
+}
+//Creates unique alert for Fact 3 button.
+function funFact3() {
+    alert("There are many different types of rays. A few are stingrays, electric rays, butterfly rays, round rays, manta rays, cow-nose rays, guitarfish and sawfish.");
+}
+//Creates unique alert for Fact 4 button.
+function funFact4() {
+    alert("Stingrays have electromagnetic senses that help them find prey.");
+}
+//Creates unique alert for Fact 5 button.
+function funFact5() {
+    alert("Stingrays go back to the Jurrasic period, 150 million years ago.");
+}
+//Creates unique alert for Fact 6 button.
+function funFact6() {
+    alert("Stingrays protect themselves with venomous spines or barbs. Electric rays can stun predators and prey with an eletric current that they generate.");
+}
+//Creates the alert for the Start button.
+function begin() {
+    alert("Start.                                                                           (Stingray skin was used to make hilts for traditional Japanese swords.)");
+}
+//Creates alert for stop button.
+function end() {
+    alert("Stop.                                                                            (Greek dentists used stingray's venom for medical procedures.)");
+}
+//End script tag.
+</script>
+<!--Start body tag.-->
+<body>
+<!--Add animated stingray gif.-->
+    <img class="animated-gif" src="stingRay1.gif">
+<!--Header text about the document.-->
+    <h1>Facts About Stingrays</h1>
+<!--Paragraph text about the buttons.-->
+    <p1>Choose which fact you want to know<br></p1>
+    <p2></p2>and a fun fact about stingrays will appear.<br></p2>
+<!--Div container for buttons to keep them together.-->
+    <div class="container"><div class="button"></div>
+<!--Create button for start.-->
+    <button id="start" onclick="begin()">Start</button>
+<!--Create button for Fact 1.-->
+    <button id="1" onclick="funFact1()">Fact 1</button>
+<!--Create button for Fact 2.-->
+    <button id="2" onclick="funFact2()">Fact 2</button>
+<!--Create button for Fact 3.-->
+    <button id="3" onclick="funFact3()">Fact 3</button>
+<!--Create button for Fact 4.-->
+    <button id="4" onclick="funFact4()">Fact 4</button>
+<!--Create button for Fact 5.-->
+    <button id="5" onclick="funFact5()">Fact 5</button>
+<!--Create button for Fact 6.-->
+    <button id="6" onclick="funFact6()">Fact 6</button>
+<!--Create button for the stop.-->
+    <button id="stop" onclick="end()">Stop</button>
+<!--End body tag.-->
+</body>
+<!--End HTML tag.-->
+</html>
